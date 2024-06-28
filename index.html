@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eladio Carrión Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #161a16;
+            color: #f8f9fa;
+        }
+        .navbar {
+            margin-bottom: 30px;
+            background-color: #1f1f1f;
+        }
+        .navbar-brand, .nav-link, .form-control, .btn-outline-success {
+            color: #b8bebb !important;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+            border: 1px solid #444;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #1f1f1f;
+            margin-right: 3px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .modal-content {
+            background-color: #1f1f1f;
+            color: #f8f9fa;
+        }
+        .btn-secondary {
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-secondary:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Eladio Carrión</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/eladiocarrion/">Instagram</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://open.spotify.com/intl-es/artist/5XJDexmWFLWOkjOEjOVX3e?si=uqg7V6rMQ4WHXTOK0dPzDA">Spotify</a>
+                </li>
+            </ul>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <div class="container">
+        <div class="row">
+            <!-- Portfolio Item 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <img src="img/monarca (2).jpg" alt="Portfolio Item 1">
+                <h5 class="mt-2">Monarca</h5>
+                <p>El álbum "Monarca" de Eladio Carrión es una obra destacada en el género del trap y rap latino. Lanzado en 2021, este álbum presenta un conjunto de canciones que exploran temas como la fama, el éxito, el amor y las experiencias personales del artista. Con colaboraciones de otros artistas prominentes del género, Carrión muestra su habilidad lírica y su versatilidad musical a lo largo del álbum. Las canciones varían en estilo y ritmo, pero en conjunto ofrecen una mirada introspectiva y emocionalmente resonante en la vida y carrera del artista.</p>
+            </div>
+            <!-- Portfolio Item 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <img src="img/sauce (1).jpg" alt="Portfolio Item 2">
+                <h5 class="mt-2">Sauce Boyz</h5>
+                <p>El álbum "Sauce Boyz" es una obra clave en la discografía de Eladio Carrión, lanzado en 2020. Este trabajo destaca por su estilo distintivo de trap y reggaetón, combinando ritmos contemporáneos con letras que exploran la vida callejera, el éxito y las relaciones personales. Carrión demuestra su habilidad para crear hooks pegajosos y colabora con otros artistas destacados del género, creando un ambiente energético y vibrante a lo largo del álbum. "Sauce Boyz" es reconocido por su producción pulida y por capturar la esencia del trap latino en la década de 2020, consolidando aún más la posición de Eladio Carrión en la escena musical urbana.</p>
+            </div>
+            <!-- Portfolio Item 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <img src="img/SAUCE 2 (1).jpg" alt="Portfolio Item 3">
+                <h5 class="mt-2">Sauce Boyz 2</h5>
+                <p>"Sauce Boyz 2" es una canción del artista puertorriqueño Eladio Carrión, conocido por su estilo en el género de trap latino. En la canción, Carrión habla sobre su éxito, su estilo de vida y su habilidad para mantenerse auténtico mientras alcanza el éxito. El tema resalta la importancia de la autenticidad y la perseverancia en el mundo de la música urbana, con un enfoque en el reconocimiento de su propio "sauce" o estilo distintivo.</p>
+            </div>
+            <!-- Portfolio Item 4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <img src="img/sol maria (1).jpg" alt="Portfolio Item 4">
+                <h5 class="mt-2">Sol Maria</h5>
+                <p>"Sol María" es una canción de Eladio Carrión que se destaca por su tono romántico y melódico. En la canción, Carrión expresa sus sentimientos hacia una mujer llamada Sol María, destacando su belleza y el impacto que tiene en él. La letra describe un amor intenso y apasionado, utilizando metáforas y comparaciones poéticas para expresar la admiración y el deseo hacia la persona amada. La melodía y el ritmo de la canción complementan su tema romántico, creando una atmósfera emotiva y envolvente para el oyente.</p>
+            </div>
+            <!-- Portfolio Item 5 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <img src="img/3men2 (1).jpg" alt="Portfolio Item 5">
+                <h5 class="mt-2">3MEN2 KBRON</h5>
+                <p>El álbum "3Men2 Kbron" de Eladio Carrión es una obra que fusiona el reguetón, trap latino y otros elementos musicales contemporáneos. Lanzado en 2021, este álbum muestra la versatilidad de Carrión tanto como cantante como compositor. A lo largo de sus pistas, Eladio explora temas como el éxito, la vida en el callejón, la lealtad y el amor, todo esto mientras colabora con varios artistas de renombre en la escena del reguetón como J Balvin y Wisin, quienes enriquecen la producción con sus distintivos estilos vocales y contribuyen a una experiencia auditiva rica y variada.</p>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <img src="img/sen2 kbron (1).jpg" alt="Portfolio Item 6">
+                <h5 class="mt-2">Sen2 kbron vol 2</h5>
+                <p>El álbum "Sén2 Kbrón Vol. 2" de Eladio Carrión es la continuación de su trabajo anterior, destacando por su exploración en el género del trap latino y reguetón. Lanzado en 2022, el álbum presenta un estilo característico que combina ritmos pegajosos con letras que abordan temas como la vida en las calles, el éxito, las relaciones personales y la autenticidad. Carrión demuestra su habilidad lírica y su versatilidad a lo largo del álbum, colaborando con otros artistas prominentes del género para crear una experiencia auditiva diversa y emocionante. "Sén2 Kbrón Vol. 2" es visto como una continuación exitosa de su evolución musical, capturando la atención de su audiencia con su estilo distintivo y su energía contagiosa.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- modelos -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal1Label">Portafolio 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/700x300" alt="Portfolio Item 1" class="img-fluid">
+                    <p>Descripción completa del portafolio 1. Aquí puedes proporcionar más detalles sobre el proyecto, la tecnología utilizada, los desafíos enfrentados y los resultados obtenidos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal2Label">Portafolio 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/700x300" alt="Portfolio Item 2" class="img-fluid">
+                    <p>Descripción completa del portafolio 2. Aquí puedes proporcionar más detalles sobre el proyecto, la tecnología utilizada, los desafíos enfrentados y los resultados obtenidos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal3Label">Portafolio 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/700x300" alt="Portfolio Item 3" class="img-fluid">
+                    <p>Descripción completa del portafolio 3. Aquí puedes proporcionar más detalles sobre el proyecto, la tecnología utilizada, los desafíos enfrentados y los resultados obtenidos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal4Label">Portafolio 4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/700x300" alt="Portfolio Item 4" class="img-fluid">
+                    <p>Descripción completa del portafolio 4. Aquí puedes proporcionar más detalles sobre el proyecto, la tecnología utilizada, los desafíos enfrentados y los resultados obtenidos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal5Label">Portafolio 5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/700x300" alt="Portfolio Item 5" class="img-fluid">
+                    <p>Descripción completa del portafolio 5. Aquí puedes proporcionar más detalles sobre el proyecto, la tecnología utilizada, los desafíos enfrentados y los resultados obtenidos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModal6Label">Portafolio 6</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/700x300" alt="Portfolio Item 6" class="img-fluid">
+                    <p>Descripción completa del portafolio 6. Aquí puedes proporcionar más detalles sobre el proyecto, la tecnología utilizada, los desafíos enfrentados y los resultados obtenidos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
